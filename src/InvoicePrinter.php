@@ -18,8 +18,8 @@ use FPDF;
 class InvoicePrinter extends FPDF
 {
     public const ICONV_CHARSET_INPUT = 'UTF-8';
-    public const ICONV_CHARSET_OUTPUT_A = 'UTF-8//TRANSLIT';
-    public const ICONV_CHARSET_OUTPUT_B = 'UTF-8//TRANSLIT';
+    public const ICONV_CHARSET_OUTPUT_A = 'ISO-8859-1//IGNORE';
+    public const ICONV_CHARSET_OUTPUT_B = 'ISO-8859-1//IGNORE';
 
     public const INVOICE_SIZE_LEGAL = 'legal';
     public const INVOICE_SIZE_LETTER = 'letter';
